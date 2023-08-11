@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Comparador</h1>
+    </header>
+    <main>
+        <input type="number" id="n1" placeholder="0">
+        <select name="" id="operador">
+            <option value="maior">></option>
+            <option value="menor"><</option>
+            <option value="maiorIgual">>=</option>
+            <option value="menorIgual"><=</option>
+            <option value="igualdade">==</option>
+            <option value="diferenca">!=</option>
+        </select>
+        <input type="number" id="n2" placeholder="0">
+        <input type="button" onclick="comparar()" value="=">
+        <input type="text" id="result" disabled>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
